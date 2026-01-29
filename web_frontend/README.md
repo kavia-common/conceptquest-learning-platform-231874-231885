@@ -11,6 +11,31 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
+### Backend API
+
+By default the UI expects the backend at:
+
+- `http://localhost:3001`
+
+You can override with:
+
+- `REACT_APP_API_BASE_URL`
+
+Example (create a `.env` locally):
+
+```
+REACT_APP_API_BASE_URL=http://localhost:3001
+```
+
+The app supports:
+- Login/Signup (placeholder)
+- Dashboard layout with sidebar game selection
+- Play (mock 5-minute micro-game)
+- Progress view
+- Achievements modal
+- Syllabus mapping view
+
+
 In the project directory, you can run:
 
 ### `npm start`
